@@ -1,0 +1,8 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+    printer:
+      enabled: true
+
+logging.level.org.springframework.web: DEBUG
