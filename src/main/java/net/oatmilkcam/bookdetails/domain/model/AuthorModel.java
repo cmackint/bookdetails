@@ -1,12 +1,14 @@
 package net.oatmilkcam.bookdetails.domain.model;
 
-
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 
 @Builder
 @Getter
-public class Author {
+@AllArgsConstructor(access = AccessLevel.PRIVATE) // Forces MapStruct to use builder
+public class AuthorModel {
     private String authorId;
     private String firstName;
     private String lastName;
