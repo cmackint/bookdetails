@@ -10,7 +10,7 @@ public class BookDao {
     private static List<BookModel> books = Arrays.asList(
             BookModel.builder()
                     .bookId("book-1")
-                    .name("The Long Way to a Small, Angry PLanet")
+                    .name("The Long Way to a Small, Angry Planet")
                     .authorId("author-1")
                     .pageCount(464)
                     .build(),
