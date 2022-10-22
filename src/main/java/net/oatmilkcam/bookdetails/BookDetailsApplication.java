@@ -1,13 +1,13 @@
-package net.oatmilkcam.springbootgraphql;
+package net.oatmilkcam.bookdetails;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootGraphqlApplication {
+public class BookDetailsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootGraphqlApplication.class, args);
+		SpringApplication.run(BookDetailsApplication.class, args);
 	}
 
 }

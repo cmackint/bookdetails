@@ -1,10 +1,10 @@
-package net.oatmilkcam.springbootgraphql;
+package net.oatmilkcam.bookdetails;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootGraphqlApplicationTests {
+class BookDetailsApplicationTests {
 
 	@Test
 	void contextLoads() {
