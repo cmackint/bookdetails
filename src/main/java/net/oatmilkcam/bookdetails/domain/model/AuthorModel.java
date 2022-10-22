@@ -7,7 +7,7 @@ import lombok.Getter;
 
 @Builder
 @Getter
-@AllArgsConstructor(access = AccessLevel.PRIVATE) // Forces MapStruct to use builder
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class AuthorModel {
     private String authorId;
     private String firstName;
