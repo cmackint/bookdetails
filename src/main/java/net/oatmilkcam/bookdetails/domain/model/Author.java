@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @Builder
 @Getter
-public class AuthorModel {
+public class Author {
     private String authorId;
     private String firstName;
     private String lastName;
